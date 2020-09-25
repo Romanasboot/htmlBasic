@@ -1,0 +1,54 @@
+
+* {
+	text-align: center;
+}
+
+article	{
+	color: red;
+}
+
+#promo{
+	color: aqua;
+}
+
+.blue {
+	color: blue;
+}
+
+.center{
+	text-align: center;
+}
+
+.bg-silver{
+	background-color: silver;
+}
+
+a[href='https://www.kitm.lt']{
+	color: red;
+}
+
+a[href$=".docx"]{
+	color: green;
+}
+
+a:hover{
+	color: purple;
+}
+
+/*.todo ul :first-child{
+	color: red;
+}
+*/
+
+/*.todo ul :nth-child(2n+2){
+	color: red;
+}
+*/
+
+.todo ul li {
+	color: red;
+}
+
+.todo ul>li>ul>li{
+	color: green;
+}

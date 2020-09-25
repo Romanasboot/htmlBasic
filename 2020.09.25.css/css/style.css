@@ -1,0 +1,61 @@
+/* elemento seletoriai*/
+body{
+	background: #eee url('../webdev.jpg') repeat-y;
+	background-size: contain;
+
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+
+}
+
+th, td{
+	border: 1px solid #000;
+	text-align: left;
+	padding: 8px;
+}
+
+section{
+	background-color: rgba(44, 132, 176, 0.5);
+	padding:20px;
+}
+
+section h1{
+	color: #e01414;
+	font-size: 2.2em;
+	font-family: Arial, Tahoma, sans-serif;
+}
+
+section h1, section h2{
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+section h2{
+color: #14a6a3;
+font-size: 1.8em;
+
+}
+section article p{
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+}
+
+section article p span{
+	font-weight: bold; /*bolder 500*/
+	font-style: italic;
+	text-decoration: underline;
+	line-height: 2;
+}
+
+.todo ul li {
+	color: #8a0b0b;
+}
+
+.todo ul>li>ul>li{
+	color: #0d4a34;
+}
